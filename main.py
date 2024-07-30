@@ -170,8 +170,6 @@ def fetch_data(events_earth):
 
             city, region, territorium, country = find_address_data(location)
 
-            print(f"{event_date},{event_time},{timestamp},{geo_type},{longitude},{latitude},{city},"
-                  f"{region},{territorium},{country},{mag_value},{mag_unit},{square_meters},{square_kilometers}")
 
 
         data_fetch_act = [
