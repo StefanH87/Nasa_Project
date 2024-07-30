@@ -10,7 +10,7 @@ from langdetect import detect, LangDetectException
 my_db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="wfbruhff-3rgwr3-wrt193rfr",
+    password="",
     database="wildfires"
 )
 cursor = my_db.cursor()
